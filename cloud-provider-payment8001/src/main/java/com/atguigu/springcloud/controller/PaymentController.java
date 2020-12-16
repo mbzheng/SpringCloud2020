@@ -2,9 +2,12 @@ package com.atguigu.springcloud.controller;
 import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
 import com.atguigu.springcloud.service.PaymentService;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @auther zzyy
@@ -19,6 +22,9 @@ public class PaymentController
 
     @Value("${server.port}")
     private  String serverPort;
+
+    @Resource
+    private DiscoveryClient discoveryClient;//获得服务的名称以及端口号信息等等
 
     @PostMapping(value = "/payment/create")
     public CommonResult create( @RequestBody Payment payment)
@@ -43,5 +49,21 @@ public class PaymentController
         }else{
             return new CommonResult(444,"查询失败"+serverPort,"失败"+payment);
         }
+    }
+
+    @GetMapping(value = "/payment/discover")
+    public Object discover(){
+        List<String> servies=discoveryClient.getServices();
+
+        for (String s  :servies) {
+            System.out.println(s);
+        }
+
+        List<ServiceInstance>  instances= discoveryClient.getInstances("cloud-payment-service");
+
+        for (ServiceInstance s:instances){
+            System.out.println(s.getServiceId()+"\t"+s.getHost()+"\t"+s.getPort()+"\t"+s.getUri());
+        }
+        return this.discoveryClient;
     }
 }
