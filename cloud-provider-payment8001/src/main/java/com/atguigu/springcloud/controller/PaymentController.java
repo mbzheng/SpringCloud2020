@@ -2,6 +2,7 @@ package com.atguigu.springcloud.controller;
 import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
 import com.atguigu.springcloud.service.PaymentService;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 
@@ -16,15 +17,18 @@ public class PaymentController
     @Resource
     private PaymentService paymentService;
 
+    @Value("${server.port}")
+    private  String serverPort;
+
     @PostMapping(value = "/payment/create")
     public CommonResult create( @RequestBody Payment payment)
     {
         int result = paymentService.create(payment);
         if(result > 0)
         {
-            return new CommonResult(200,"插入成功 ","插入成功"+result);
+            return new CommonResult(200,"插入成功 "+serverPort,"插入成功"+result);
         }else{
-            return new CommonResult(444,"插入失败","失败");
+            return new CommonResult(444,"插入失败"+serverPort,"失败");
         }
     }
 
@@ -35,9 +39,9 @@ public class PaymentController
 
         if(payment != null)
         {
-            return new CommonResult(200,"查询成功 ","查询成功"+payment);
+            return new CommonResult(200,"查询成功 "+serverPort,"查询成功"+payment);
         }else{
-            return new CommonResult(444,"查询失败","失败"+payment);
+            return new CommonResult(444,"查询失败"+serverPort,"失败"+payment);
         }
     }
 }

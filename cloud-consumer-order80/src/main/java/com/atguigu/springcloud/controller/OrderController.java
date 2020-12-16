@@ -12,7 +12,11 @@ import javax.annotation.Resource;
 @RestController
 public class OrderController {
 
-    private final String PAYMENT_URL="http://localhost:8001";
+    //不能写死
+//    private final String PAYMENT_URL="http://localhost:8001";
+
+    //负载均衡
+    private final String PAYMENT_URL="http://cloud-payment-service";
 
     @Resource
     private RestTemplate restTemplate;
