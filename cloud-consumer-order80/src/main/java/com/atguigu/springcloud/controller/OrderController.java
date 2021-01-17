@@ -2,6 +2,8 @@ package com.atguigu.springcloud.controller;
 
 import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
+import com.atguigu.springcloud.lb.LoadBalancer;
+import com.sun.jndi.toolkit.url.Uri;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.http.ResponseEntity;
@@ -12,6 +14,7 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 import javax.xml.ws.Response;
+import java.net.URI;
 import java.util.List;
 
 @RestController
@@ -25,6 +28,9 @@ public class OrderController {
 
     @Resource
     private RestTemplate restTemplate;
+
+    @Resource
+    private LoadBalancer loadBalancer;//自己写的轮询
 
     @Resource
     private DiscoveryClient discoveryClient;
@@ -63,5 +69,17 @@ public class OrderController {
         }
 
         return this.discoveryClient;
+    }
+
+    @GetMapping(value = "consumer/payment/lb")
+    public String getPaymentLb(){
+      List<ServiceInstance>  instances=  discoveryClient.getInstances("CLOUD-PAYMENT-SERVICE");
+
+      if(instances==null||instances.size()<=0){
+          return  null;
+      }
+      ServiceInstance serviceInstance=loadBalancer.instances(instances);
+      URI uri=serviceInstance.getUri();
+      return restTemplate.getForObject(uri+"payment/lb",String.class);
     }
 }
