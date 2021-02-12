@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/cloud-stream-rabbitmq-provider-8801.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/cloud-stream-rabbitmq-provider-8801.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/cloudalibaba-provider-payment9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" />
     </modules>
   </component>
 </project>
