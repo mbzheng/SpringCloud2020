@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87f65007-aed1-43fd-994b-4b72e141d4b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/FlowLimitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/FlowLimitController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -137,8 +138,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/FlowLimitController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+            <state relative-caret-position="164">
+              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -245,9 +246,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="514" />
-    <option name="y" value="121" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="513" />
+    <option name="y" value="120" />
     <option name="width" value="1391" />
     <option name="height" value="793" />
   </component>
@@ -272,6 +273,101 @@
             <path>
               <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="FlowLimitController" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -588,12 +684,13 @@
       <workItem from="1613113077747" duration="2844000" />
       <workItem from="1613459103709" duration="566000" />
       <workItem from="1613486566672" duration="1246000" />
-      <workItem from="1613489642803" duration="1128000" />
+      <workItem from="1613489642803" duration="1776000" />
+      <workItem from="1613539689165" duration="1494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72797000" />
+    <option name="totallyTimeSpent" value="74939000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,7 +704,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1787" height="972" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25390399" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -630,7 +727,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3297619" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3297619" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.6035714" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.52261907" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1103,8 +1200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/FlowLimitController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="164">
+          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
