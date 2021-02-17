@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87f65007-aed1-43fd-994b-4b72e141d4b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/RateLimitController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/FlowLimitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/FlowLimitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-common/src/main/java/com/atguigu/springcloud/entities/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-common/src/main/java/com/atguigu/springcloud/entities/CommonResult.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/cloud-api-common/target/" />
@@ -45,24 +46,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1508">
-              <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/NacosConfig3377.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,14 +118,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/FlowLimitController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+            <state relative-caret-position="77">
+              <caret line="42" column="41" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/RateLimitController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-api-common/src/main/java/com/atguigu/springcloud/entities/CommonResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -177,8 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-config-client-3366/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/ClientMain3366.java" />
         <option value="$PROJECT_DIR$/cloud-api-common/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java" />
@@ -228,6 +232,8 @@
         <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/myhandler/CustomerBlockHandler.java" />
         <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/MainApp8401.java" />
         <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/FlowLimitController.java" />
+        <option value="$PROJECT_DIR$/cloud-api-common/src/main/java/com/atguigu/springcloud/entities/CommonResult.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/RateLimitController.java" />
       </list>
     </option>
   </component>
@@ -246,7 +252,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="513" />
     <option name="y" value="120" />
     <option name="width" value="1391" />
@@ -277,6 +283,87 @@
             <path>
               <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-api-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-api-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="CommonResult" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="SpringCloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud2020" type="462c0819:PsiDirectoryNode" />
               <item name="cloudalibaba-sentinel-service8401" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -367,7 +454,7 @@
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
               <item name="alibaba" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="FlowLimitController" type="1a9f42e2:ClassTreeNode" />
+              <item name="RateLimitController" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -384,7 +471,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -400,15 +487,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\javaID-workspace\SpringCloud2020" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javaID-workspace\SpringCloud2020\cloudalibaba-sentinel-service8401\src\main\java\com\atguigu\springcloud\alibaba\controller" />
       <recent name="E:\javaID-workspace\SpringCloud2020\cloudalibaba-sentinel-service8401\src\main\java" />
       <recent name="E:\javaID-workspace\SpringCloud2020\cloudalibaba-consumer-nacos-order83\src\main\java" />
       <recent name="E:\javaID-workspace\SpringCloud2020\cloudalibaba-consumer-nacos-order83\src\main\resources" />
       <recent name="E:\javaID-workspace\SpringCloud2020\cloud-stream-rabbitmq-consumer8803\src\main\java\com\atguigu\springcloud" />
-      <recent name="E:\SpringCloud2020\cloud-provider-payment8002\src\main\java" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\javaID-workspace\SpringCloud2020" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -685,12 +772,12 @@
       <workItem from="1613459103709" duration="566000" />
       <workItem from="1613486566672" duration="1246000" />
       <workItem from="1613489642803" duration="1776000" />
-      <workItem from="1613539689165" duration="1494000" />
+      <workItem from="1613539689165" duration="2390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74939000" />
+    <option name="totallyTimeSpent" value="75835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -703,6 +790,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1787" height="972" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -727,7 +815,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3297619" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3297619" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.52261907" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.32023808" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -790,20 +878,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-config-center-3344/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -1200,10 +1274,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/FlowLimitController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        <state relative-caret-position="77">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-api-common/src/main/java/com/atguigu/springcloud/entities/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/RateLimitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
           </folding>
         </state>
       </provider>
