@@ -15,6 +15,7 @@
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8001" />
         <module name="cloud-consumerzk-order80" />
+        <module name="seata-storage-service2002" />
         <module name="cloud-providerconsul-payment8006" />
         <module name="cloud-config-client-3366" />
         <module name="cloud-api-common" />
@@ -70,6 +71,7 @@
       <module name="cloudalibaba-provider-payment9002" target="1.8" />
       <module name="cloudalibaba-sentinel-service8401" target="1.8" />
       <module name="seata-order-service2001" target="1.8" />
+      <module name="seata-storage-service2002" target="1.8" />
       <module name="SpringCloud2020" target="1.8" />
     </bytecodeTargetLevel>
   </component>

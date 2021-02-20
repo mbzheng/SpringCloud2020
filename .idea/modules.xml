@@ -33,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" filepath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/cloudalibaba-provider-payment9002.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" filepath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" />
       <module fileurl="file://$PROJECT_DIR$/seata-order-service2001/seata-order-service2001.iml" filepath="$PROJECT_DIR$/seata-order-service2001/seata-order-service2001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-storage-service2002/seata-storage-service2002.iml" filepath="$PROJECT_DIR$/seata-storage-service2002/seata-storage-service2002.iml" />
     </modules>
   </component>
 </project>
