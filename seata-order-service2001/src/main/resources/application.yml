@@ -14,7 +14,7 @@ spring:
         server-addr: localhost:8848
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/seata_order
+    url: jdbc:mysql://localhost:3306/seata_order?serverTimezone=CTT&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
     username: root
     password: 123456
 
@@ -29,3 +29,5 @@ logging:
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

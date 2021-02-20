@@ -29,4 +29,3 @@ logging:
 mybatis:
   mapperLocations: classpath:mapper/*.xml
 
-
